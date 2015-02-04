@@ -75,3 +75,13 @@ You should only ever be modifying script files in the `/js/src` directory.  Grun
 ### Images
 
 The `assets/images/src` directory exists only to allow you to keep track of source files (like PSDs or separate images that have been merged into sprites).  This helps keep source files under version control, and allows you to bundle them with the distribution of your new GPL plugin.
+
+## Release History
+
+* 2015-02-04   v0.1.8   Use hyphens for filenames, better .gitignore, better JS banner templates, optional WP code sniffer grunt task, optional autoloader.
+* 2013-07-18   v0.1.5   Remove /extend references (props @trepmal).
+* 2013-05-30   v0.1.4   Fix broken package.json generator.
+* 2013-05-06   v0.1.3   Several I18N updates (props @bradyvercher)
+* 2013-04-29   v0.1.2   Folder restructuring and renaming.
+* 2013-04-26   v0.1.1   Minor bug fixes.
+* 2013-04-25   v0.1.0   Initial public release.
