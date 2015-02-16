@@ -144,7 +144,7 @@ module.exports = function( grunt ) {
 					debounceDelay: 500
 				}
 			}
-		}
+		},
 
 		/**
 		 * check WP Coding standards
@@ -161,7 +161,7 @@ module.exports = function( grunt ) {
 				bin: '~/phpcs/scripts/phpcs',
 				standard: 'WordPress'
 			}
-		},
+		}
 
 	} );
 

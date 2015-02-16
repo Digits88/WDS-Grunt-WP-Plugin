@@ -31,10 +31,10 @@ exports.template = function( grunt, init, done ) {
 			default: 'wpplugin'
 		},
 		init.prompt( 'description', 'The best WordPress plugin ever made!' ),
-		init.prompt( 'homepage', 'http://dsgnwrks.pro' ),
-		init.prompt( 'author_name' ),
-		init.prompt( 'author_email' ),
-		init.prompt( 'author_url', 'http://dsgnwrks.pro' ),
+		init.prompt( 'homepage', 'http://webdevstudios.com' ),
+		init.prompt( 'author_name', 'webdevstudios' ),
+		init.prompt( 'author_email', 'contact@webdevstudios.com' ),
+		init.prompt( 'author_url', 'http://webdevstudios.com' ),
 		{
 			name: 'css_type',
 			message: 'CSS Preprocessor: Will you use "Sass", "LESS", or "none" for CSS with this project?',
