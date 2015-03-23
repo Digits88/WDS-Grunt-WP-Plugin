@@ -102,7 +102,7 @@ exports.template = function( grunt, init, done ) {
 				delete files[ 'assets/css/less/' + props.wpfilename + '.less'];
 				delete files[ 'assets/css/src/' + props.wpfilename + '.css' ];
 
-				props.devDependencies["grunt-contrib-sass"] = "~0.2.2";
+				props.devDependencies["grunt-contrib-sass"] = "~0.9.2";
 				props.css_type = 'sass';
 				break;
 		}
