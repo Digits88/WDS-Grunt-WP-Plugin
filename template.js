@@ -54,14 +54,14 @@ exports.template = function( grunt, init, done ) {
 		props.keywords = [];
 		props.version = '0.1.0';
 		props.devDependencies = {
-			'grunt'                  : '~0.4.1',
-			'grunt-contrib-concat'   : '~0.1.2',
-			'grunt-contrib-uglify'   : '~0.1.1',
-			'grunt-contrib-cssmin'   : '~0.6.0',
-			'grunt-contrib-jshint'   : '~0.1.1',
-			'grunt-contrib-nodeunit' : '~0.1.2',
-			'grunt-contrib-watch'    : '~0.2.0',
-			'grunt-phpcs'            : '~0.2.3'
+			'grunt'                  : '~0.4.5',
+			'grunt-contrib-concat'   : '~0.5.1',
+			'grunt-contrib-uglify'   : '~0.8.0',
+			'grunt-contrib-cssmin'   : '~0.12.2',
+			'grunt-contrib-jshint'   : '~0.11.1',
+			'grunt-contrib-nodeunit' : '~0.4.1',
+			'grunt-contrib-watch'    : '~0.6.1',
+			'grunt-phpcs'            : '~0.4.0'
 		};
 
 		// Sanitize names where we need to for PHP/JS
@@ -87,7 +87,7 @@ exports.template = function( grunt, init, done ) {
 				delete files[ 'assets/css/sass/' + props.wpfilename + '.scss'];
 				delete files[ 'assets/css/src/' + props.wpfilename + '.css' ];
 
-				props.devDependencies["grunt-contrib-less"] = "~0.5.0";
+				props.devDependencies["grunt-contrib-less"] = "~1.0.0";
 				props.css_type = 'less';
 				break;
 			case 'n':
@@ -102,7 +102,7 @@ exports.template = function( grunt, init, done ) {
 				delete files[ 'assets/css/less/' + props.wpfilename + '.less'];
 				delete files[ 'assets/css/src/' + props.wpfilename + '.css' ];
 
-				props.devDependencies["grunt-contrib-sass"] = "~0.2.2";
+				props.devDependencies["grunt-contrib-sass"] = "~0.9.2";
 				props.css_type = 'sass';
 				break;
 		}
