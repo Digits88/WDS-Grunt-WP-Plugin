@@ -60,7 +60,7 @@ exports.template = function( grunt, init, done ) {
 			'grunt-contrib-cssmin'   : '~0.12.2',
 			'grunt-contrib-jshint'   : '~0.11.1',
 			'grunt-contrib-nodeunit' : '~0.4.1',
-			'grunt-contrib-watch'    : '~0.2.0',
+			'grunt-contrib-watch'    : '~0.6.1',
 			'grunt-phpcs'            : '~0.2.3'
 		};
 
